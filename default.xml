@@ -170,4 +170,6 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform_system_vold" remote="github" />
 
+  <project path="vendor/qcom-opensource/omx/mm-core.git" name="platform/vendor/qcom-opensource/omx/mm-core.git" remote="caf" revision="refs/tags/M7630AABBQVLZA301204" />
+
 </manifest>

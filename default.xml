@@ -6,7 +6,7 @@
   <remote name="github" fetch="git://github.com/pulse-android-dev/" />
   <remote name="caf" fetch="git://codeaurora.org/" review="codeaurora.org"/>
 
-  <default revision="refs/tags/android-2.2_r1.1"
+  <default revision="froyo-release"
            remote="korg" />
 
   <project path="build" name="platform/build">

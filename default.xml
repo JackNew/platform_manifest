@@ -5,6 +5,7 @@
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/pulse-android-dev/" />
   <remote name="caf" fetch="git://codeaurora.org/" review="codeaurora.org"/>
+  <remote name="cm" fetch="git://github.com/CyanogenMod/" review="review.cyanogenmod.com" />
 
   <default revision="froyo-release"
            remote="korg" />
@@ -172,5 +173,11 @@
   <project path="system/vold" name="platform_system_vold" remote="github" />
 
   <project path="vendor/qcom-opensource/omx/mm-core.git" name="platform/vendor/qcom-opensource/omx/mm-core.git" remote="caf" revision="refs/tags/M7630AABBQVLZA301204" />
+
+  <project path="external/bash" name="android_external_bash" remote="cm" revision="bash-4.1-froyo" />
+  <project path="external/busybox" name="android_external_busybox" remote="cm" />
+  <project path="external/compcache" name="android_external_compcache" revision="master" remote="cm" />
+  <project path="external/nano" name="android_external_nano" remote="cm" revision="nano-2.2.4-froyo" />
+  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="master" />
 
 </manifest>

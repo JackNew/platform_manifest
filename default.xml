@@ -174,10 +174,11 @@
 
   <project path="vendor/qcom-opensource/omx/mm-core" name="caf_vendor_qcom-opensource_omx_mm-core" remote="github" revision="master" />
 
+  <project path="external/libncurses" name="android_external_libncurses" remote="cm" revision="libncurses-5.7-froyo" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="bash-4.1-froyo" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="froyo" />
   <project path="external/compcache" name="android_external_compcache" revision="master" remote="cm" />
   <project path="external/nano" name="android_external_nano" remote="cm" revision="nano-2.2.4-froyo" />
-  <project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="master" />
+  <!--<project path="packages/apps/Superuser" name="android_packages_apps_Superuser" remote="cm" revision="master" /> This fails to build -->
 
 </manifest>

@@ -4,7 +4,7 @@
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
   <remote name="github" fetch="git://github.com/pulse-android-dev/" />
-  <remote name="caf" fetch="git://codeaurora.org/" review="codeaurora.org"/>
+  <remote name="caf" fetch="git://codeaurora.org/" review="codeaurora.org" />
   <remote name="cm" fetch="git://github.com/CyanogenMod/" review="review.cyanogenmod.com" />
 
   <default revision="froyo-release"
@@ -172,7 +172,7 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform_system_vold" remote="github" />
 
-  <project path="vendor/qcom-opensource/omx/mm-core.git" name="platform/vendor/qcom-opensource/omx/mm-core.git" remote="caf" revision="refs/tags/M7630AABBQVLZA301204" />
+  <project path="vendor/qcom-opensource/omx/mm-core.git" name="platform/vendor/qcom-opensource/omx/mm-core.git" remote="caf" revision="froyo" />
 
   <project path="external/bash" name="android_external_bash" remote="cm" revision="bash-4.1-froyo" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" />
